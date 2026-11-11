@@ -1,0 +1,39 @@
+html, body, #main, #main p, #main li, #main label, #main h1, #main h2, #main h3, #main h4, #main h5, #main h6, #main td, #main th {
+  color: #243049;
+}
+
+.answer-text, .score-line {
+  color: #1b2437 !important;
+  background: #ffffff;
+  border: 1px solid #d5deea;
+  border-radius: 14px;
+}
+
+.answer-text {
+  border-left: 5px solid #435ebe;
+  padding: 16px 18px;
+  line-height: 1.8;
+  white-space: pre-wrap;
+  font-size: 15px;
+}
+
+.score-line {
+  background: #eef2ff;
+  padding: 12px 14px;
+  line-height: 1.7;
+}
+
+.page-heading h3 {
+  color: #25396f;
+  font-weight: 700;
+}
+
+.card {
+  border: 0;
+  box-shadow: 0 8px 24px rgba(37, 57, 111, 0.08);
+}
+
+.sidebar-wrapper .menu .sidebar-item.active > .sidebar-link {
+  background: #435ebe;
+  color: #ffffff;
+}
